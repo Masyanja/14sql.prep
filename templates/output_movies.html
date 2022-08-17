@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+      {% for row in data %}
+      "title" : {{ row[0] }}<br>
+      "country" : {{ row[1] }}<br>
+      "release_year" : {{ row[2] }}<br>
+      "description" : {{ row[3] }}
+      {% endfor %}
+</body>
+</html>

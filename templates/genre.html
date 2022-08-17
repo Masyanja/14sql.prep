@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+      {% for row in data %}
+      "title" : {{ row[0] }}<br>
+      "description" : {{ row[1] }}<br>
+      {% endfor %}
+</body>
+</html>
